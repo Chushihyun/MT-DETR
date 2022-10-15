@@ -1,2 +1,4 @@
 # MT-DETR
-Official Pytorch implementation of "MT-DETR: Robust End-to-end Multimodal Detection with Confidence Fusion" (WACV 2023)
+This is the Pytorch implementation of WACV 2023 paper: "MT-DETR: Robust End-to-end Multimodal Detection with Confidence Fusion"
+
+Code will be release soon.
