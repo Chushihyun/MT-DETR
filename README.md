@@ -8,7 +8,7 @@ The repository is based on [mmdetection](https://github.com/open-mmlab/mmdetecti
 To run the code:
 
 1. Construct an environment first, please follow the cbnetv2 (https://github.com/VDIGPKU/CBNetV2) and mmdetection (https://github.com/open-mmlab/mmdetection) tutorial.
-2. Download the dataset and model checkpoints. Please go to data/ and checkpoint/ and read the instructions there to download.
+2. Download the dataset and model checkpoints. Please go to `data/` and `checkpoint/` and read the instructions there to download.
 3. After preparation, type the following command in your terminal:
 ```
 bash run_script/$script_name$
@@ -21,6 +21,7 @@ The following are the important directories of this project:
 - `checkpoint`: download model weights here
 - `run_script`: shell files for running models, change your path and GPU_id here
 - `configs`: configs of models, adjust models' setting here
+- `mmdet/models/backbones/mt_detr.py`,`mmdet/models/backbones/fusion_module.py`: core model architecture of MT-DETR (this paper)
 
 
 ## BibTeX
