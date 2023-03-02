@@ -1,6 +1,6 @@
 # MT-DETR
 
-This project is the code of WACV 2023 paper: [MT-DETR: Robust End-to-end Multimodal Detection with Confidence Fusion](https://openaccess.thecvf.com/content/WACV2023/papers/Chu_MT-DETR_Robust_End-to-End_Multimodal_Detection_With_Confidence_Fusion_WACV_2023_paper.pdf), you can find more visualized result and details in [supplementary material](https://openaccess.thecvf.com/content/WACV2023/supplemental/Chu_MT-DETR_Robust_End-to-End_WACV_2023_supplemental.pdf)
+This project is the code of **WACV 2023** paper: [MT-DETR: Robust End-to-end Multimodal Detection with Confidence Fusion](https://openaccess.thecvf.com/content/WACV2023/papers/Chu_MT-DETR_Robust_End-to-End_Multimodal_Detection_With_Confidence_Fusion_WACV_2023_paper.pdf) by *Shih-Yun Chu*, *Ming-Sui Lee*. You can find more visualized result and details in [supplementary material](https://openaccess.thecvf.com/content/WACV2023/supplemental/Chu_MT-DETR_Robust_End-to-End_WACV_2023_supplemental.pdf)
 
 ## Getting Started
 The repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [cbnetv2](https://github.com/VDIGPKU/CBNetV2).
@@ -25,7 +25,7 @@ The following are the important directories of this project:
 
 ## BibTeX
 
-If you find our work useful in your research, please consider citing our paper.
+If you find our work useful in your research, please consider citing our [paper](https://openaccess.thecvf.com/content/WACV2023/papers/Chu_MT-DETR_Robust_End-to-End_Multimodal_Detection_With_Confidence_Fusion_WACV_2023_paper.pdf).
 ```
 @InProceedings{Chu_2023_WACV,
     author    = {Chu, Shih-Yun and Lee, Ming-Sui},
