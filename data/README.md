@@ -44,3 +44,9 @@ Briefly introduce the directories under this folder (data folder):
 
 - `prepare_data.txt`: this file
 
+## Acknowledgement
+Special thanks to these excellent dataset and project:
+- [STF dataset](https://www.uni-ulm.de/en/in/driveu/projects/dense-datasets/)
+- [STF Github repo](https://github.com/princeton-computational-imaging/SeeingThroughFog)
+- [DPT](https://github.com/isl-org/DPT)
+- [LiDAR fog simulation](https://github.com/MartinHahner/LiDAR_fog_sim)
