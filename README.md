@@ -1,6 +1,9 @@
 # MT-DETR
 
-This project is the code of WACV 2023 paper: MT-DETR: Robust End-to-end Multimodal Detection with Confidence Fusion. The code is based on mmdetection and cbnetv2.
+This project is the code of WACV 2023 paper: [MT-DETR: Robust End-to-end Multimodal Detection with Confidence Fusion](https://openaccess.thecvf.com/content/WACV2023/papers/Chu_MT-DETR_Robust_End-to-End_Multimodal_Detection_With_Confidence_Fusion_WACV_2023_paper.pdf), you can find more visualized result and details in [supplementary material](https://openaccess.thecvf.com/content/WACV2023/supplemental/Chu_MT-DETR_Robust_End-to-End_WACV_2023_supplemental.pdf)
+
+## Getting Started
+The repository is based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [cbnetv2](https://github.com/VDIGPKU/CBNetV2).
 
 To run the code:
 
@@ -19,3 +22,17 @@ The following are the important directories of this project:
 - `run_script`: shell files for running models, change your path and GPU_id here
 - `configs`: configs of models, adjust models' setting here
 
+
+## BibTeX
+
+If you find our work useful in your research, please consider citing our paper.
+```
+@InProceedings{Chu_2023_WACV,
+    author    = {Chu, Shih-Yun and Lee, Ming-Sui},
+    title     = {MT-DETR: Robust End-to-End Multimodal Detection With Confidence Fusion},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2023},
+    pages     = {5252-5261}
+}
+```
