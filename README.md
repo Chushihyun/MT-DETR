@@ -9,7 +9,7 @@ This project is the code of **WACV 2023** paper: [MT-DETR: Robust End-to-end Mul
 <img src='figure/lightfog_night.png' width="47%"> <img src='figure/clear_night.png' width="47%">
 </div>
 
-### Brief introduction
+### Brief Introduction
 
 In the application of autonomous driving, there are times when unexpected and severe weather (fog, snow, night) occurs in outdoor environments, making the detection tasks less effective. Therefore, this paper proposes a **novel multimodal object detection network called MT-DETR**. It achieves **state-of-the-art performance** using the camera, lidar and radar, and additional time information. The experimental results demonstrate that the MT-DETR is **robust and performs well in various weather conditions**. The **good generalization and scalability** confirm future applicability to different multimodal tasks.
 
@@ -31,7 +31,7 @@ The repository is based on [mmdetection](https://github.com/open-mmlab/mmdetecti
 
 To run the code:
 
-1. Construct an environment first, please follow the cbnetv2 (https://github.com/VDIGPKU/CBNetV2) and mmdetection (https://github.com/open-mmlab/mmdetection) tutorial.
+1. To construct an environment first, please follow the cbnetv2 (https://github.com/VDIGPKU/CBNetV2) and mmdetection (https://github.com/open-mmlab/mmdetection) tutorial.
 2. Download the dataset and model checkpoints. Please go to `data/` and `checkpoint/` and read the instructions there to download.
 3. After preparation, type the following command in your terminal:
 ```
