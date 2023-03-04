@@ -2,24 +2,26 @@
 
 This project is the code of **WACV 2023** paper: [MT-DETR: Robust End-to-end Multimodal Detection with Confidence Fusion](https://openaccess.thecvf.com/content/WACV2023/papers/Chu_MT-DETR_Robust_End-to-End_Multimodal_Detection_With_Confidence_Fusion_WACV_2023_paper.pdf) by *Shih-Yun Chu*, *Ming-Sui Lee*. You can find more visualized result and details in [supplementary material](https://openaccess.thecvf.com/content/WACV2023/supplemental/Chu_MT-DETR_Robust_End-to-End_WACV_2023_supplemental.pdf).
 
+<!-- ### Visualized Results in different weathers and times -->
+
+<div align=center>  
+<img src='figure/snow_day.png' width="47%"> <img src='figure/densefog_day.png' width="47%">
+<img src='figure/lightfog_night.png' width="47%"> <img src='figure/clear_night.png' width="47%">
+</div>
+
+
 In the application of autonomous driving, there are times when unexpected and severe weather (fog, snow, night) occurs in outdoor environments, making the detection tasks less effective. Therefore, this paper proposes a **novel multimodal object detection network called MT-DETR**. It achieves **state-of-the-art performance** using the camera, lidar and radar, and additional time information. The experimental results demonstrate that the MT-DETR is **robust and performs well in various weather conditions**. The **good generalization and scalability** confirm future applicability to different multimodal tasks.
 
 <div align=center>  
 <img src='figure/architecture.png' width="80%">
 </div>
 
-### Comparison Tables
+<!-- ### Comparison Tables
 
 <div align=center>  
 <img src='figure/comparison.png' width="47%"> <img src='figure/input_sensor.png' width="47%">
-</div>
+</div> -->
 
-### Visualized Results in different weathers and times
-
-<div align=center>  
-<img src='figure/snow_day.png' width="47%"> <img src='figure/densefog_day.png' width="47%">
-<img src='figure/lightfog_night.png' width="47%"> <img src='figure/clear_night.png' width="47%">
-</div>
 
 
 
