@@ -25,7 +25,7 @@ Follow the steps below to generate foggy camera image and foggy lidar image.
 Follow this repo [LiDAR fog simulation](https://github.com/MartinHahner/LiDAR_fog_sim) to generate foggy lidar image and save it in `foggy_lidar/`.
 
 
-## Introduce directories and function
+## Introduce directories and functions
 
 Briefly introduce the directories under this folder (data folder):
 
